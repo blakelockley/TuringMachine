@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D7FC77D81CE8656D00B918FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC77D71CE8656D00B918FB /* main.swift */; };
+		D7FC77DF1CE8657E00B918FB /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC77DE1CE8657E00B918FB /* Instruction.swift */; };
+		D7FC77E11CE87DA900B918FB /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC77E01CE87DA900B918FB /* Enums.swift */; };
+		D7FC77E31CE87DC900B918FB /* TuringMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC77E21CE87DC900B918FB /* TuringMachine.swift */; };
+		D7FC77E51CE87DDE00B918FB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC77E41CE87DDE00B918FB /* State.swift */; };
+		D7FC77E71CE87DEE00B918FB /* Tape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC77E61CE87DEE00B918FB /* Tape.swift */; };
+		D7FC77F51CE9703600B918FB /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC77F41CE9703600B918FB /* Input.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		D7FC77D41CE8656D00B918FB /* TuringMachine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TuringMachine; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FC77D71CE8656D00B918FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D7FC77DE1CE8657E00B918FB /* Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		D7FC77E01CE87DA900B918FB /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		D7FC77E21CE87DC900B918FB /* TuringMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuringMachine.swift; sourceTree = "<group>"; };
+		D7FC77E41CE87DDE00B918FB /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		D7FC77E61CE87DEE00B918FB /* Tape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tape.swift; sourceTree = "<group>"; };
+		D7FC77F41CE9703600B918FB /* Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				D7FC77D71CE8656D00B918FB /* main.swift */,
+				D7FC77E01CE87DA900B918FB /* Enums.swift */,
+				D7FC77DE1CE8657E00B918FB /* Instruction.swift */,
+				D7FC77E41CE87DDE00B918FB /* State.swift */,
+				D7FC77E61CE87DEE00B918FB /* Tape.swift */,
+				D7FC77E21CE87DC900B918FB /* TuringMachine.swift */,
+				D7FC77F41CE9703600B918FB /* Input.swift */,
 			);
 			path = TuringMachine;
 			sourceTree = "<group>";
@@ -119,6 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7FC77F51CE9703600B918FB /* Input.swift in Sources */,
+				D7FC77E31CE87DC900B918FB /* TuringMachine.swift in Sources */,
+				D7FC77E71CE87DEE00B918FB /* Tape.swift in Sources */,
+				D7FC77DF1CE8657E00B918FB /* Instruction.swift in Sources */,
+				D7FC77E11CE87DA900B918FB /* Enums.swift in Sources */,
+				D7FC77E51CE87DDE00B918FB /* State.swift in Sources */,
 				D7FC77D81CE8656D00B918FB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +265,7 @@
 				D7FC77DD1CE8656D00B918FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
